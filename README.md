@@ -12,32 +12,35 @@ Requirements:<br />
 ```
 {
 	"miner_info": [{
-		"address": "",    <-- Your Nicehash Miner Address
-		"isnicehashwallet": "no"    <-- Whether or not you're mining to a Nicehash wallet
+		"address": "",						<-- Your Nicehash Miner Address
+		"isnicehashwallet": "no"			<-- Whether or not you're mining to a Nicehash wallet
 	}],
 	"goals": [{
-		"bitcoin": "0.01",
-		"gbp": "100.00",
-		"usd": "100.00",
-		"eur": "100.00"
+		"bitcoin": "0.01",					<-- Your Bitcoin Goal
+		"gbp": "100.00",					<-- Your GBP Goal (£)
+		"usd": "100.00",					<-- Your USD Goal ($)
+		"eur": "100.00"						<-- Your EUR Goal (€)
 	}],
 	"notifications": [{
-		"recipient_email_address": "",
-		"sender_email_address": "",
-        "smtp_server": "smtp.gmail.com",
-        "smtp_port": "465"
+		"recipient_email_address": "",		<-- The email to send the notifications to
+		"sender_email_address": "",			<-- The email of the sender
+        "smtp_server": "smtp.gmail.com",	<-- The SMTP Server of the Sending Email Address
+        "smtp_port": "465"					<-- The SMTP Port of the Sending Email Address
 	}],
 	"alertincrements": [{
-		"bitcoin": "0.01",
-		"gbp": "10.00",
-		"usd": "10.00",
-		"eur": "10.00"
+		"bitcoin": "0.01",					<-- Currently a work in progress, you can ignore this for now
+		"gbp": "10.00",						<-- Currently a work in progress, you can ignore this for now
+		"usd": "10.00",						<-- Currently a work in progress, you can ignore this for now
+		"eur": "10.00"						<-- Currently a work in progress, you can ignore this for now
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",
-		"gbp": "true",
-		"usd": "true",
-		"eur": "true"
+		"bitcoin": "true",					<-- Enable/Disable alerts for Bitcoin
+		"gbp": "true",						<-- Enable/Disable alerts for GBP
+		"usd": "true",						<-- Enable/Disable alerts for USD
+		"eur": "true"						<-- Enable/Disable alerts for EUR
 	}]
 }
 ```
+
+## Credits
+Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
