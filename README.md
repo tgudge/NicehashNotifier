@@ -53,7 +53,7 @@ notifications > recipient_email_address | The email address to send the notifica
 notifications > sender_email_address | The email address from which the notifications will be sent
 notifications > smtp_server | The SMTP server of the sending email address
 notifications > smtp_port | The SMTP port of the sending email address
-allertincrements | THIS WHOLE SECTION IS IN THE WORKS, YOU CAN IGNORE FOR NOW
+alertincrements | THIS WHOLE SECTION IS IN THE WORKS, YOU CAN IGNORE FOR NOW
 enabledalerts > bitcoin | Enable/Disable Bitcoin Notifications
 enabledalerts > gbp | Enable/Disable GBP Notifications
 enabledalerts > usd | Enable/Disable USD Notifications
