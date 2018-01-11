@@ -24,8 +24,8 @@ Requirements:<br />
 	"notifications": [{
 		"recipient_email_address": "",		<-- Email of recipient
 		"sender_email_address": "",			<-- Email of the sender
-        "smtp_server": "smtp.gmail.com",	<-- SMTP Server of the Sender
-        "smtp_port": "465"					<-- SMTP Port of the Sender
+			"smtp_server": "smtp.gmail.com",	<-- SMTP Server of the Sender
+			"smtp_port": "465"					<-- SMTP Port of the Sender
 	}],
 	"alertincrements": [{
 		"bitcoin": "0.01",			<-- Currently a work in progress, you can ignore this for now
