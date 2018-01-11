@@ -45,6 +45,19 @@ Key | Value
 ------------- | -------------
 miner_info > address  | The Address of your Nicehash Miner
 miner_info > address  | Whether or not your Nicehash Miner is mining to a Nicehash Wallet
+goals > bitcoin | Bitcoin goal
+goals > gbp | GBP (£) Goal
+goals > usd | USD ($) Goal
+goals > eur | EUR (€) Goal
+notifications > recipient_email_address | The email address to send the notifications to
+notifications > sender_email_address | The email address from which the notifications will be sent
+notifications > smtp_server | The SMTP server of the sending email address
+notifications > smtp_port | The SMTP port of the sending email address
+allertincrements | THIS WHOLE SECTION IS IN THE WORKS, YOU CAN IGNORE FOR NOW
+enabledalerts > bitcoin | Enable/Disable Bitcoin Notifications
+enabledalerts > gbp | Enable/Disable GBP Notifications
+enabledalerts > usd | Enable/Disable USD Notifications
+enabledalerts > eur | Enable/Disable EUR Notifications
 
 ## Credits
 Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
