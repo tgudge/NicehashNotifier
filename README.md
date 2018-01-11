@@ -12,32 +12,32 @@ Requirements:<br />
 ```
 {
 	"miner_info": [{
-		"address": "",						<-- Your Nicehash Miner Address
-		"isnicehashwallet": "no"			<-- Whether or not you're mining to a Nicehash wallet
+		"address": "",				<-- Your Nicehash Miner Address
+		"isnicehashwallet": "no"	<-- Whether or not you're mining to a Nicehash wallet
 	}],
 	"goals": [{
-		"bitcoin": "0.01",					<-- Your Bitcoin Goal
-		"gbp": "100.00",					<-- Your GBP Goal (£)
-		"usd": "100.00",					<-- Your USD Goal ($)
-		"eur": "100.00"						<-- Your EUR Goal (€)
+		"bitcoin": "0.01",			<-- Your Bitcoin Goal
+		"gbp": "100.00",			<-- Your GBP Goal (£)
+		"usd": "100.00",			<-- Your USD Goal ($)
+		"eur": "100.00"				<-- Your EUR Goal (€)
 	}],
 	"notifications": [{
-		"recipient_email_address": "",		<-- The email to send the notifications to
-		"sender_email_address": "",			<-- The email of the sender
-        "smtp_server": "smtp.gmail.com",	<-- The SMTP Server of the Sending Email Address
-        "smtp_port": "465"					<-- The SMTP Port of the Sending Email Address
+		"recipient_email_address": "",		<-- Email of recipient
+		"sender_email_address": "",			<-- Email of the sender
+        "smtp_server": "smtp.gmail.com",	<-- SMTP Server of the Sender
+        "smtp_port": "465"					<-- SMTP Port of the Sender
 	}],
 	"alertincrements": [{
-		"bitcoin": "0.01",					<-- Currently a work in progress, you can ignore this for now
-		"gbp": "10.00",						<-- Currently a work in progress, you can ignore this for now
-		"usd": "10.00",						<-- Currently a work in progress, you can ignore this for now
-		"eur": "10.00"						<-- Currently a work in progress, you can ignore this for now
+		"bitcoin": "0.01",			<-- Currently a work in progress, you can ignore this for now
+		"gbp": "10.00",				<-- Currently a work in progress, you can ignore this for now
+		"usd": "10.00",				<-- Currently a work in progress, you can ignore this for now
+		"eur": "10.00"				<-- Currently a work in progress, you can ignore this for now
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",					<-- Enable/Disable alerts for Bitcoin
-		"gbp": "true",						<-- Enable/Disable alerts for GBP
-		"usd": "true",						<-- Enable/Disable alerts for USD
-		"eur": "true"						<-- Enable/Disable alerts for EUR
+		"bitcoin": "true",			<-- Enable/Disable alerts for Bitcoin
+		"gbp": "true",				<-- Enable/Disable alerts for GBP
+		"usd": "true",				<-- Enable/Disable alerts for USD
+		"eur": "true"				<-- Enable/Disable alerts for EUR
 	}]
 }
 ```
