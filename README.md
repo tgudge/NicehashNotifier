@@ -1,1 +1,2 @@
 # NicehashNotifier
+Test
