@@ -12,8 +12,8 @@ Requirements:<br />
 ```
 {
 	"miner_info": [{
-		"address": "",
-		"isnicehashwallet": "no"
+		"address": "",    <-- Your Nicehash Miner Address
+		"isnicehashwallet": "no"    <-- Whether or not you're mining to a Nicehash wallet
 	}],
 	"goals": [{
 		"bitcoin": "0.01",
