@@ -12,35 +12,39 @@ Requirements:<br />
 ```
 {
 	"miner_info": [{
-		"address": "",				<-- Your Nicehash Miner Address
-		"isnicehashwallet": "no"	<-- Whether or not you're mining to a Nicehash wallet
+		"address": "",				
+		"isnicehashwallet": "no"	
 	}],
 	"goals": [{
-		"bitcoin": "0.01",			<-- Your Bitcoin Goal
-		"gbp": "100.00",			<-- Your GBP Goal (£)
-		"usd": "100.00",			<-- Your USD Goal ($)
-		"eur": "100.00"				<-- Your EUR Goal (€)
+		"bitcoin": "0.01",			
+		"gbp": "100.00",			
+		"usd": "100.00",			
+		"eur": "100.00"				
 	}],
 	"notifications": [{
-		"recipient_email_address": "",		<-- Email of recipient
-		"sender_email_address": "",			<-- Email of the sender
-			"smtp_server": "smtp.gmail.com",	<-- SMTP Server of the Sender
-			"smtp_port": "465"					<-- SMTP Port of the Sender
+		"recipient_email_address": "",		
+		"sender_email_address": "",			
+		"smtp_server": "smtp.gmail.com",	
+		"smtp_port": "465"					
 	}],
 	"alertincrements": [{
-		"bitcoin": "0.01",			<-- Currently a work in progress, you can ignore this for now
-		"gbp": "10.00",				<-- Currently a work in progress, you can ignore this for now
-		"usd": "10.00",				<-- Currently a work in progress, you can ignore this for now
-		"eur": "10.00"				<-- Currently a work in progress, you can ignore this for now
+		"bitcoin": "0.01",			
+		"gbp": "10.00",				
+		"usd": "10.00",				
+		"eur": "10.00"				
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",			<-- Enable/Disable alerts for Bitcoin
-		"gbp": "true",				<-- Enable/Disable alerts for GBP
-		"usd": "true",				<-- Enable/Disable alerts for USD
-		"eur": "true"				<-- Enable/Disable alerts for EUR
+		"bitcoin": "true",			
+		"gbp": "true",				
+		"usd": "true",				
+		"eur": "true"
 	}]
 }
 ```
+Key | Value
+------------- | -------------
+miner_info > address  | The Address of your Nicehash Miner
+miner_info > address  | Whether or not your Nicehash Miner is mining to a Nicehash Wallet
 
 ## Credits
 Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
