@@ -10,7 +10,7 @@ Requirements:<br />
 
 # Editing the config
 `
-{
+{ <br />
 	"miner_info": [{
 		"address": "",
 		"isnicehashwallet": "no"
