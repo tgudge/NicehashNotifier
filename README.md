@@ -10,34 +10,5 @@ Requirements:<br />
 
 # Editing the config
 `
-{ <br />
-	"miner_info": [{
-		"address": "",
-		"isnicehashwallet": "no"
-	}],
-	"goals": [{
-		"bitcoin": "0.01",
-		"gbp": "100.00",
-		"usd": "100.00",
-		"eur": "100.00"
-	}],
-	"notifications": [{
-		"recipient_email_address": "",
-		"sender_email_address": "",
-        "smtp_server": "smtp.gmail.com",
-        "smtp_port": "465"
-	}],
-	"alertincrements": [{
-		"bitcoin": "0.01",
-		"gbp": "10.00",
-		"usd": "10.00",
-		"eur": "10.00"
-	}],
-	"enabledalerts": [{
-		"bitcoin": "true",
-		"gbp": "true",
-		"usd": "true",
-		"eur": "true"
-	}]
-}
+test
 `
