@@ -66,7 +66,7 @@ enabledalerts > gbp | Enable/Disable GBP Notifications
 enabledalerts > usd | Enable/Disable USD Notifications
 enabledalerts > eur | Enable/Disable EUR Notifications
 applicationsettings > update_frequency | How often your balances/rates are updated in seconds (min 60)
-applicationsettings > show_btc_rates | With this enabled, the application will output and updated Bitcoin Rate to GBP, USD & EUR (NOT YET IMPLEMENTED)
+applicationsettings > show_btc_rates | With this enabled, the application will output and updated Bitcoin Rate to GBP, USD & EUR
 applicationsettings > show_goal_progress | With this enabled, the progress to your balance goals will be displayed alongside your balances
 applicationsettings > show_balance_change | With this enabled, the change in balance since the last update will be displayed alongside your balances
 
