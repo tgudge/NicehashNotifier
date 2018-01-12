@@ -63,7 +63,9 @@ enabledalerts > eur | Enable/Disable EUR Notifications
 * Incremental Alerts, once initial goal is reached
 * Payout Alerts, based on whether or not you have a Nicehash Wallet, you will get a notification when you surpass the payout threshold.
 * Currently the application only supports SMTP SSL connections for email, working on allowing more.
+* Better error handling, a lot of things just make it cry and crash!
 * Then, in the distant future, making it UI Based.
 
 ### Credits
 Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
+Uses [NiceHash](https://www.nicehash.com/) API
