@@ -12,32 +12,39 @@ Requirements:<br />
 ```
 {
 	"miner_info": [{
-		"address": "",				
-		"isnicehashwallet": "no"	
+		"address": "",
+		"isnicehashwallet": "yes"
 	}],
 	"goals": [{
-		"bitcoin": "0.01",			
-		"gbp": "100.00",			
-		"usd": "100.00",			
-		"eur": "100.00"				
+		"bitcoin": "0.001",
+		"gbp": "100.00",
+		"usd": "100.00",
+		"eur": "100.00"
 	}],
 	"notifications": [{
-		"recipient_email_address": "",		
-		"sender_email_address": "",			
-		"smtp_server": "smtp.gmail.com",	
-		"smtp_port": "465"					
+		"recipient_email_address": "",
+		"sender_email_address": "",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": "465"
 	}],
 	"alertincrements": [{
-		"bitcoin": "0.01",			
-		"gbp": "10.00",				
-		"usd": "10.00",				
-		"eur": "10.00"				
+		"bitcoin": "0.01",
+		"gbp": "10.00",
+		"usd": "10.00",
+		"eur": "10.00"
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",			
-		"gbp": "true",				
-		"usd": "true",				
-		"eur": "true"
+		"bitcoin": "true",
+		"gbp": "true",
+		"usd": "true",
+		"eur": "true",
+        "incremental": "true"
+	}],
+	"applicationsettings": [{
+		"update_frequency": "60",
+        "show_btc_rates": "true",
+		"show_goal_progress": "true",
+        "show_balance_change": "true"
 	}]
 }
 ```
@@ -58,6 +65,11 @@ enabledalerts > bitcoin | Enable/Disable Bitcoin Notifications
 enabledalerts > gbp | Enable/Disable GBP Notifications
 enabledalerts > usd | Enable/Disable USD Notifications
 enabledalerts > eur | Enable/Disable EUR Notifications
+applicationsettings > update_frequency | How often your balances/rates are updated in seconds (min 60)
+applicationsettings > show_btc_rates | With this enabled, the application will output and updated Bitcoin Rate to GBP, USD & EUR
+applicationsettings > show_goal_progress | With this enabled, the progress to your balance goals will be displayed alongside your balances
+applicationsettings > show_balance_change | With this enabled, the change in balance since the last update will be displayed alongside your balances
+
 
 ## Upcoming Features
 * Incremental Alerts, once initial goal is reached
