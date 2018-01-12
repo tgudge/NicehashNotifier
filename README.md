@@ -66,6 +66,10 @@ enabledalerts > eur | Enable/Disable EUR Notifications
 * Better error handling, a lot of things just make it cry and crash!
 * Then, in the distant future, making it UI Based.
 
+### Donation Addresses
+* BTC: 17gbJUL2Mi9McuM7J3FBW9ddyYyT6hLpX9
+* LTC: LWtgC4HzMwmdDJTHYVRKhAgRbxXvmHeAyv
+
 ### Credits
-Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
+Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/) <br />
 Uses [NiceHash](https://www.nicehash.com/) API
