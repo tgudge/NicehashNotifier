@@ -59,5 +59,11 @@ enabledalerts > gbp | Enable/Disable GBP Notifications
 enabledalerts > usd | Enable/Disable USD Notifications
 enabledalerts > eur | Enable/Disable EUR Notifications
 
-## Credits
+## Upcoming Features
+* Incremental Alerts, once initial goal is reached
+* Payout Alerts, based on whether or not you have a Nicehash Wallet, you will get a notification when you surpass the payout threshold.
+* Currently the application only supports SMTP SSL connections for email, working on allowing more.
+* Then, in the distant future, making it UI Based.
+
+### Credits
 Bitcoin values supplied by [CoinDesk](https://www.coindesk.com/)
