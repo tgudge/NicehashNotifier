@@ -34,15 +34,15 @@ Requirements:<br />
 		"eur": "10.00"
 	}],
 	"enabledalerts": [{
-		"bitcoin": "false",
-		"gbp": "false",
-		"usd": "false",
-		"eur": "false",
-		"incremental": "false"
+		"bitcoin": "true",
+		"gbp": "true",
+		"usd": "true",
+		"eur": "true",
+		"incremental": "true"
 	}],
 	"applicationsettings": [{
 		"update_frequency": "60",
-		"show_btc_rates": "false",
+		"show_btc_rates": "true",
 		"show_goal_progress": "true",
 		"show_balance_change": "true"
 	}]
@@ -69,6 +69,9 @@ applicationsettings > update_frequency | How often your balances/rates are updat
 applicationsettings > show_btc_rates | With this enabled, the application will output and updated Bitcoin Rate to GBP, USD & EUR
 applicationsettings > show_goal_progress | With this enabled, the progress to your balance goals will be displayed alongside your balances
 applicationsettings > show_balance_change | With this enabled, the change in balance since the last update will be displayed alongside your balances
+
+## Tutorial Video
+[CLICK HERE FOR VIDEO](https://www.youtube.com/watch?v=jZXbtcE4GPI)
 
 
 ## Upcoming Features
