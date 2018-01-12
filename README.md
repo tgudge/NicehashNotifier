@@ -24,8 +24,8 @@ Requirements:<br />
 	"notifications": [{
 		"recipient_email_address": "",
 		"sender_email_address": "",
-		"smtp_server": "smtp.gmail.com",
-		"smtp_port": "465"
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": "465"
 	}],
 	"alertincrements": [{
 		"bitcoin": "0.01",
@@ -34,17 +34,17 @@ Requirements:<br />
 		"eur": "10.00"
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",
-		"gbp": "true",
-		"usd": "true",
-		"eur": "true",
-		"incremental": "true"
+		"bitcoin": "false",
+		"gbp": "false",
+		"usd": "false",
+		"eur": "false",
+        "incremental": "false"
 	}],
 	"applicationsettings": [{
 		"update_frequency": "60",
-		"show_btc_rates": "true",
-		"show_goal_progress": "true",
-		"show_balance_change": "true"
+        "show_btc_rates": "false",
+        "show_goal_progress": "true",
+        "show_balance_change": "true"
 	}]
 }
 ```
