@@ -82,8 +82,8 @@ applicationsettings > show_balance_change | With this enabled, the change in bal
 * Then, in the distant future, making it UI Based.
 
 ## Known Bugs
-* Currently the Balance Change stats are showing the total change for the session and not since the last refresh.
-* If you have none of the 'applicationsettings' set to true, none of your balances will display.
+* ~~Currently the Balance Change stats are showing the total change for the session and not since the last refresh.~~
+* ~~If you have none of the 'applicationsettings' set to true, none of your balances will display.~~
 
 ### Donation Addresses
 * BTC: 17gbJUL2Mi9McuM7J3FBW9ddyYyT6hLpX9

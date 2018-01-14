@@ -22,15 +22,15 @@
 		"eur": "10.00"
 	}],
 	"enabledalerts": [{
-		"bitcoin": "true",
-		"gbp": "true",
-		"usd": "true",
-		"eur": "true",
-		"incremental": "true"
+		"bitcoin": "false",
+		"gbp": "false",
+		"usd": "false",
+		"eur": "false",
+		"incremental": "false"
 	}],
 	"applicationsettings": [{
 		"update_frequency": "60",
-		"show_btc_rates": "true",
+		"show_btc_rates": "false",
 		"show_goal_progress": "true",
 		"show_balance_change": "true"
 	}]
