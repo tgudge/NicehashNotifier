@@ -81,6 +81,9 @@ applicationsettings > show_balance_change | With this enabled, the change in bal
 * Better error handling, a lot of things just make it cry and crash!
 * Then, in the distant future, making it UI Based.
 
+## Known Bugs
+* Currently the Balance Change stats are showing the total change for the session and not since the last refresh.
+
 ### Donation Addresses
 * BTC: 17gbJUL2Mi9McuM7J3FBW9ddyYyT6hLpX9
 * LTC: LWtgC4HzMwmdDJTHYVRKhAgRbxXvmHeAyv
